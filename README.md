@@ -80,7 +80,7 @@ To use this tool with your model and dataset, you need to provide a configuratio
 }
 ```
 
-#### Running the generation
+### Running the report generation
 Once you have model, dataset, and config file ready, to generate the report, you can use the following code snippet:
   
   ```python
