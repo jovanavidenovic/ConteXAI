@@ -22,14 +22,14 @@ The report consists of four main segments:
 
   (1) Description of local feature importances, 
 
-  (2) explanation of the instance, 
+  (2) Explanation of the instance's prediction, 
 
-  (3) visualization of local importance, 
+  (3) Visualization of local feature importances, 
   
-  (4) explanation of the visualization in natural language and context related to the domain and the prediction. 
+  (4) Explanation of the visualization in natural language and context related to the domain and the prediction. 
 
 <p align="center">
-  <img src="./other/report_structure.jpg" alt="Report structure" width="85%">
+  <img src="./other/XAI_design_page-0001.jpg" alt="Report structure" width="85%">
 </p>
 
 
@@ -93,11 +93,12 @@ After successful generation, you will find a PDF report in the directory prototy
 
 #### Example notebooks
 
-In folder [titanic/](./titanic), you can find an example of running a library on Titanic dataset for three different ensemble models: XGBoost, Random Forest, and CatBoost.
-We also provide example of configuration file there.
+In folder [titanic/](./titanic), you can find an example of running a library on Titanic dataset for three different ensemble models: XGBoost, Random Forest, and CatBoost. See file [main.ipynb](./titanic/main.ipynb) for more clarification.
+
+We also provide example of configuration file there, [titanic.json](./titanic/configurations/titanic.json).
  
 #### Examples
-An example of the generated report is shown below:
+Examples of the generated reports are shown below:
 
 <p align="center">
   <img src="./other/output_10_page-0001.jpg" alt="Example of a report" width="48%">

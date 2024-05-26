@@ -1,0 +1,53 @@
+{
+  "optimal_values": [
+      [1, 1],
+      [1, 1],
+      [18, 50],
+      [0, 2],
+      [0, 2],
+      [100, 140],
+      [0, 2]
+  ],
+  "descriptions": {
+      "below_optimal": [
+          "The individual is in a lower ticket class, which had a lower survival rate.",
+          "The individual is female. Females had a higher survival rate.",
+          "The individual is younger. Younger passengers had a higher survival rate.",
+          "The individual has fewer siblings or spouses aboard. More family members often meant a higher survival rate.",
+          "The individual has fewer parents or children aboard. More family members often meant a higher survival rate.",
+          "The fare is lower, indicating a lower class which had a lower survival rate.",
+          "The individual embarked from a port with a lower survival rate."
+      ],
+      "optimal": [
+          "The individual is in a higher ticket class, which had a higher survival rate.",
+          "The individual is female. Females had a higher survival rate.",
+          "The individual is younger. Younger passengers had a higher survival rate.",
+          "The individual has an optimal number of siblings or spouses aboard. More family members often meant a higher survival rate.",
+          "The individual has an optimal number of parents or children aboard. More family members often meant a higher survival rate.",
+          "The fare is within an optimal range, indicating a higher class which had a higher survival rate.",
+          "The individual embarked from a port with a higher survival rate."
+      ],
+      "above_optimal": [
+          "The individual is in a lower ticket class, which had a lower survival rate.",
+          "The individual is male. Males had a lower survival rate.",
+          "The individual is older. Older passengers had a lower survival rate.",
+          "The individual has more siblings or spouses aboard. More family members often meant a higher survival rate.",
+          "The individual has more parents or children aboard. More family members often meant a higher survival rate.",
+          "The fare is higher, indicating a higher class which had a higher survival rate.",
+          "The individual embarked from a port with a lower survival rate."
+      ]
+  },
+  "transformation": {
+      "0": ["1st", "2nd", "3rd"],
+      "1": ["Female", "Male"],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": ["Cherbourg", "Queenstown", "Southampton"]
+  },
+  "feature_names": ["Pclass", "Sex", "Age", "SibSp", "Parch", "Fare", "Embarked"],
+  "target1": "Survived",
+  "target2": "Passenger",
+  "supporting": ["has", ""]
+}
