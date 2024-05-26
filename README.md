@@ -1,7 +1,6 @@
 # ConteXAI - Contextualizing model's decisions with natural language explanations
 
 ## Project description
-ConteXAI is a Python package developed as part of the Data Science Project Competition 2024. 
 
 The library **links local explainability methods with natural language explanations**, allowing users to gain detailed insights into model predictions.
 By incorporating additional domain knowledge, users can obtain even better insights into the model's predictions.
@@ -13,7 +12,7 @@ ConteXAI can be installed using pip:
 pip install dscontexai
 ```
 
-### Generate XAI reports
+### XAI reports with text explanations and context
 
 Using this library, you can fully automatically develop your XAI reports. Currently, it supports SHAP values, which is a local feature importance measure, to which we added textual explanations and domain-related context.
 The library can be used for binary classification problems, for all models that output probabilities.
