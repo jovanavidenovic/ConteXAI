@@ -29,7 +29,7 @@ The report consists of four main segments:
   (4) Explanation of the visualization in natural language and context related to the domain and the prediction. 
 
 <p align="center">
-  <img src="./other/XAI_design_page-0001.jpg" alt="Report structure" width="85%">
+  <img src="https://github.com/jovanavidenovic/ConteXAI/blob/main/other/XAI_design_page-0001.jpg" alt="Report structure" width="85%">
 </p>
 
 
@@ -95,14 +95,14 @@ After successful generation, you will find a PDF report in the directory prototy
 
 In folder [titanic/](./titanic), you can find an example of running a library on Titanic dataset for three different ensemble models: XGBoost, Random Forest, and CatBoost. See file [main.ipynb](./titanic/main.ipynb) for more clarification.
 
-We also provide example of configuration file there, [titanic.json](./titanic/configurations/titanic.json).
+We also provide example of configuration file there, [titanic.json](/titanic/configurations/titanic.json).
  
 #### Examples
-Examples of the generated reports are shown below:
+Examples of the generated reports are shown below. Problem domain was diabetes prediction.
 
 <p align="center">
-  <img src="./other/output_10_page-0001.jpg" alt="Example of a report" width="48%">
-  <img src="./other/output_4130_page-0001.jpg" alt="Example of a report" width="48%">
+  <img src="https://github.com/jovanavidenovic/ConteXAI/blob/main/other/output_10_page-0001.jpg" alt="Example of a report" width="48%">
+  <img src="https://github.com/jovanavidenovic/ConteXAI/blob/main/other/output_4130_page-0001.jpg" alt="Example of a report" width="48%">
 </p>
 
 
